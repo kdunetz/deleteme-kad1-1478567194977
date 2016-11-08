@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: deleteme-kad1
+  host: deleteme-kad1
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-s1
+  - Auto-Scaling-rk
+  - deleteme-kad1-personality_insights
